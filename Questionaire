@@ -1,0 +1,33 @@
+## Questionaire:
+What is the difference between var and let?
+Let is a constant that only can be assigned once, while var can be assigned more than once
+
+
+What is an optional?
+An optional is field that can have to types, it can be either nil or any other type
+
+
+What is optional chaining vs optional binding?
+Optional chaining : not allowing the code to run 
+Optional wrapping : allow the optional to run by unwrapping the optional
+
+What are the different ways to unwrap an optional? How do they work? Are they safe? 
+We have guard, if let ,  double question mark (??) , and force unwrapping !, all of them are safe except force wrapping. 
+
+What is a closure?
+A closure is a block of code that belongs to property and can return a value
+
+What is the difference between a class and a struct?
+What is the syntax '??' do? ?? is used for optionals and we put in front the field, if the field is nil then we have a default value, other than that we use the field
+
+What is a tuple?
+A tuple stores parameters with different types separated with commas
+
+What is Any vs AnyObject?
+Any can be any type, while anyoject can refer to a class
+
+What is a protocol?
+A protocol contains methods and properties that encapsulate a unit of functionality
+
+What is Delegation
+A delegation is a reactive pattern for notifying for any changes
